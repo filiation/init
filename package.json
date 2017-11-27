@@ -1,0 +1,55 @@
+{
+  "name": "fli-init",
+  "version": "0.0.1",
+  "description": "Init fli.",
+  "main": "lib/init_command.js",
+  "scripts": {
+    "lint": "eslint bin lib test"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "hio-init": "bin/init.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "index.js"
+  ],
+  "dependencies": {
+    "co": "^4.6.0",
+    "colors": "^1.1.2",
+    "egg-init-config": "^1.2.0",
+    "glob": "^7.1.1",
+    "group-object": "^0.1.1",
+    "ini": "^1.3.4",
+    "inquirer": "^3.0.1",
+    "is-type-of": "^1.0.0",
+    "mem-fs": "^1.1.3",
+    "mem-fs-editor": "^3.0.2",
+    "mkdirp": "^0.5.1",
+    "node-homedir": "^1.0.0",
+    "npm-updater": "^1.2.0",
+    "rimraf": "^2.6.0",
+    "tar": "^2.2.1",
+    "urllib": "^2.20.0",
+    "yargs": "^6.6.0"
+  },
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "coffee": "^3.3.0",
+    "egg-bin": "^2.2.1",
+    "egg-ci": "^1.1.0",
+    "eslint": "^3.16.0",
+    "eslint-config-egg": "^3.2.0",
+    "intelli-espower-loader": "^1.0.1",
+    "power-assert": "^1.4.2",
+    "webstorm-disable-index": "^1.0.11"
+  },
+  "keywords": [
+    "init"
+  ],
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "author": "tianyi.jiangty(http://github.com/jtyjty99999)"
+}
